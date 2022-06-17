@@ -16,6 +16,7 @@
 
 <template>
 <div class="container">
+  <Header />
   <h1>Great Dogs Deserve Great Homes</h1>
   <p>We are an adoption agency committed to putting wonderful adoptable dogs
   into great permanent homes...</p>
@@ -28,3 +29,13 @@
   </div>
 </div>
 </template>
+
+<script>
+import Header from './Header.vue'
+
+export default {
+  components: {
+    Header,
+  }
+}
+</script>
