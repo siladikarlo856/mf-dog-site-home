@@ -52,7 +52,8 @@ module.exports = {
         dogDetail: 'dogDetail@http://localhost:8081/remoteEntry.js'
       },
       exposes: {
-        './Header': './src/Header.vue'
+        './Header': './src/Header.vue',
+        './mountHeader': './src/mountHeader',
       },
       shared: require("./package.json").dependencies,
     }),
