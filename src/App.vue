@@ -22,20 +22,18 @@
   into great permanent homes...</p>
 
   <h1>Adoptable Dogs</h1>
-  <div class="carousel">
-    <img src="https://placedog.net/500/280?id=5" alt="Dog 5">
-    <img src="https://placedog.net/500/280?id=6" alt="Dog 6">
-    <img src="https://placedog.net/500/280?id=7" alt="Dog 7">
-  </div>
+  <Carousel />
 </div>
 </template>
 
 <script>
-import Header from './Header.vue'
+import Header from './Header.vue';
+import Carousel from 'dogDetail/Carousel';
 
 export default {
   components: {
     Header,
+    Carousel,
   }
 }
 </script>
