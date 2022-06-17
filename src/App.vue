@@ -26,13 +26,5 @@
     <img src="https://placedog.net/500/280?id=6" alt="Dog 6">
     <img src="https://placedog.net/500/280?id=7" alt="Dog 7">
   </div>
-
 </div>
 </template>
-
-<script>
-export default {
-  components: {
-  }
-}
-</script>
