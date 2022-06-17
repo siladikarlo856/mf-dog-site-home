@@ -1,8 +1,38 @@
+<style>
+.container {
+  width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+}
+.carousel > img {
+  width: 100%;
+}
+</style>
+
 <template>
-  <div class="container">
-    <div>Name: home</div>
-    <div>Framework: vue3</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div>
+<div class="container">
+  <h1>Great Dogs Deserve Great Homes</h1>
+  <p>We are an adoption agency committed to putting wonderful adoptable dogs
+  into great permanent homes...</p>
+
+  <h1>Adoptable Dogs</h1>
+  <div class="carousel">
+    <img src="https://placedog.net/500/280?id=5" alt="Dog 5">
+    <img src="https://placedog.net/500/280?id=6" alt="Dog 6">
+    <img src="https://placedog.net/500/280?id=7" alt="Dog 7">
   </div>
+
+</div>
 </template>
+
+<script>
+export default {
+  components: {
+  }
+}
+</script>
